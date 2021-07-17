@@ -1,0 +1,20 @@
+{
+  "units": 30,
+  "distance": "down up",
+  "stand": [
+    {
+    "name": "ozon-123",
+    "num": 20,
+    "height": 1,
+    "depth": "full",
+    "position": "none"
+    },
+    {
+    "name": "ozon-122",
+    "num": 5,
+    "height": 1,
+    "depth": "full",
+    "position": "none"
+    }
+  ]
+}
