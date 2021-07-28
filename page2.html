@@ -4,15 +4,25 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Топовый сайт новичка</title>
         <script src="scripts/page2.js"></script>
-        <link rel="stylesheet" href="page2style.css">
+        <script src="https://raw.githack.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+        <script src="scripts/download.js"></script>
+        <link rel="stylesheet" href="css/page2style.css">
     </head>
     <body>
+        <div id = "elem">
         <h1>Фасад телекоммуникационной стойки</h1>
-        <table class="pos">
-            <tr>
-                <td>Front</td>
-                <td class="rightpos">Rear</td>
-            </tr>
-        </table>
+            <table class="pos">
+                <tr>
+                    <th>Front</th><th>Back</th>
+                </tr>
+            </table>
+            <table class="front" cellspacing=0>
+                <tbody id="myTable"></tbody>
+            </table>
+            <table class="back" cellspacing=0>
+                <tbody id="myTable2"></tbody>
+            </table>
+        </div>
+        <button class="button" onclick="genPDF()">Download PDF</button>
     </body>
 </html>

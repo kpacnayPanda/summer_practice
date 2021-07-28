@@ -1,0 +1,63 @@
+body {
+    background: #ffffff; /* цвет фона страницы */
+}
+h1 {
+    color:black;
+    text-align: center;
+}
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 44%;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: grey;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: DodgerBlue}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+table.pos {
+    width: 100%;
+    font-size: 25px;
+}
+table.front {
+    width: 20%;
+    float: left;
+    margin-left: 15%;
+    margin-right: 30%;
+}
+table.front th.name {
+    border: 1px solid black;
+    padding: 7px;
+    background: DodgerBlue;
+}
+table.front th.blanck {
+    border: 1px solid black;
+    padding: 7px;
+    height: 12px;
+}
+table.back {
+    width: 20%;
+}
+table.back th.name {
+    border: 1px solid black;
+    padding: 7px;
+    background: DarkGrey;
+}
+table.back th.blanck {
+    border: 1px solid black;
+    padding: 7px;
+    height: 12px;
+}

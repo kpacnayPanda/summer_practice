@@ -3,18 +3,46 @@
   "distance": "down up",
   "stand": [
     {
-    "name": "ozon-123",
-    "num": 20,
-    "height": 1,
-    "depth": "full",
-    "position": "none"
+      "name": "ozon-123",
+      "num": 20,
+      "height": 1,
+      "depth": "full",
+      "position": "none"
     },
     {
-    "name": "ozon-122",
-    "num": 5,
-    "height": 1,
-    "depth": "full",
-    "position": "none"
+      "name": "ozon-100",
+      "num": 5,
+      "height": 1,
+      "depth": "half",
+      "position": "front"
+    },
+    {
+      "name": "ozon-120",
+      "num": 15,
+      "height": 2,
+      "depth": "full",
+      "position": "none"
+    },
+    {
+      "name": "ozon-121",
+      "num": 28,
+      "height": 3,
+      "depth": "full",
+      "position": "none"
+    },
+    {
+      "name": "ozon-132",
+      "num": 2,
+      "height": 1,
+      "depth": "half",
+      "position": "back"
+    },
+    {
+      "name": "ozon-132",
+      "num": 1,
+      "height": 1,
+      "depth": "full",
+      "position": "none"
     }
   ]
 }
